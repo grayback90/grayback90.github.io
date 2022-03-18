@@ -14,6 +14,8 @@ Techniques
 - Javascript
 - PHP
 
-Currently working on:
+Helpfull websites:
 ----
-- index.html and the actual style
+- https://fontjoy.com/
+- https://type-scale.com/
+- https://www.happyhues.co/
