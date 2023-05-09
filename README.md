@@ -9,8 +9,8 @@ On the main focus it is to practice my skills with web development.
 
 Techniques
 ----
-- html
-- css
+- HTML
+- CSS
 - Javascript
 
 Helpfull websites:
