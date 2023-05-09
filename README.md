@@ -12,7 +12,6 @@ Techniques
 - html
 - css
 - Javascript
-- PHP
 
 Helpfull websites:
 ----
