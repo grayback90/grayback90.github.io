@@ -3942,11 +3942,79 @@ input, select, textarea {
 		visibility: visible;
 	}
 
-		body.is-menu-visible #menu .inner {
-			-moz-transform: none;
-			-webkit-transform: none;
-			-ms-transform: none;
-			transform: none;
-			opacity: 1;
-			visibility: visible;
-		}
+	body.is-menu-visible #menu .inner {
+		-moz-transform: none;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none;
+		opacity: 1;
+		visibility: visible;
+	}
+
+	.card {
+		width: 300px;
+		background-color: #fff;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		border-radius: 10px;
+		overflow: hidden;
+	}
+
+	.cardheader {
+		background-color: #333;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.cardbody {
+		padding: 20px;
+	}
+
+	.skill {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.skill-name {
+		width: 120px;
+		font-size: 16px;
+		color: black;
+		font-weight: bold;
+	}
+
+	.skill-name-working {
+		width: 120px;
+		font-size: 16px;
+		color: black;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.skill-level {
+		width: 160px;
+		height: 10px;
+		background-color: #eee;
+		border-radius: 10px;
+		overflow: hidden;
+		margin-left: 20px;
+	}
+
+	.skill-percent {
+		background-color: #333;
+		height: 100%;
+	}
+	
+	.skill-percent-working {
+		background-color: #00ff22;
+		height: 100%;
+	}
+
+	.skill-percent-number {
+		margin-left: 20px;
+		font-size: 16px;
+		color: black;
+		font-weight: bold;
+	}
