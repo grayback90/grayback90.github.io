@@ -3972,49 +3972,22 @@ input, select, textarea {
 		padding: 20px;
 	}
 
-	.skill {
+	.leistung {
 		display: flex;
 		align-items: center;
 		margin-bottom: 20px;
 	}
 
-	.skill-name {
-		width: 120px;
-		font-size: 16px;
+	.leistung-name {
+		width: 145px;
+		font-size: 15px;
 		color: black;
 		font-weight: bold;
 	}
 
-	.skill-name-working {
-		width: 120px;
-		font-size: 16px;
-		color: black;
-		font-weight: bold;
-		text-decoration: underline;
-	}
-
-	.skill-level {
-		width: 160px;
-		height: 10px;
-		background-color: #eee;
-		border-radius: 10px;
-		overflow: hidden;
+	.leistung-price {
 		margin-left: 20px;
-	}
-
-	.skill-percent {
-		background-color: #333;
-		height: 100%;
-	}
-	
-	.skill-percent-working {
-		background-color: #00ff22;
-		height: 100%;
-	}
-
-	.skill-percent-number {
-		margin-left: 20px;
-		font-size: 16px;
+		font-size: 15px;
 		color: black;
 		font-weight: bold;
 	}
