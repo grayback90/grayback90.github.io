@@ -3482,8 +3482,8 @@ input, select, textarea {
 
 		#banner.major {
 			height: 75vh;
-			min-height: 22em;
-			max-height: 22em;
+			min-height: 16em;
+			max-height: 16em;
 		}
 
 			#banner.major.alt {
@@ -3759,6 +3759,7 @@ input, select, textarea {
 			margin: 0 auto;
 			max-width: 65em;
 			width: calc(100% - 6em);
+			text-align: center;
 		}
 
 			@media screen and (max-width: 736px) {
@@ -3990,4 +3991,18 @@ input, select, textarea {
 		font-size: 15px;
 		color: black;
 		font-weight: bold;
+	}
+
+	#ueber-mich {
+  		max-width: 1000px;
+  		margin: 80px auto;
+		padding: 20px 20px;
+		color: #e0e0e0;
+		text-align: center;
+	}
+
+	#ueber-mich p {
+		font-size: 1.2rem;
+		line-height: 1.6;
+		margin-bottom: 20px;
 	}
