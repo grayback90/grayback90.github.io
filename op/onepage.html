@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daniel Herzog Style Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#about" class="nav-logo">Kürzel/Firmenname</a>
+      <button class="nav-toggle" aria-label="Menü öffnen">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">Über mich</a></li>
+        <li><a href="#services" class="nav-link">Leistungen</a></li>
+        <li><a href="#references" class="nav-link">Referenzen</a></li>
+        <li><a href="#contact" class="nav-link">Kontakt</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="section about-section">
+      <div class="container">
+        <h1>Firmenname</h1>
+        <p>Hi, ich bin Kenny, Webdesigner mit Fokus auf minimalistisches, funktionales Design. Ich kreiere digitale Erlebnisse, die begeistern.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section services-section">
+      <div class="container">
+        <h2>Leistungen</h2>
+        <ul class="services-list">
+          <li>Webdesign & UI/UX</li>
+          <li>Responsive Entwicklung</li>
+          <li>Branding & Identity</li>
+          <li>Performance Optimierung</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="references" class="section references-section">
+      <div class="container">
+        <h2>Referenzen</h2>
+        <div class="ref-grid">
+          <a href="https://simply-forever.de" target="_blank" rel="noopener noreferrer">
+            <article class="reference-card">
+              <img src="../images/simply-forever-logo.png" alt="Projekt 1 Logo" class="reference-logo">
+              <h3>Simply Forever - Hochzeitsplanung</h3>
+              <img src="../images/simply-forever-site.png" alt="Screenshot Projekt 1" class="reference-preview">
+            </article>
+          </a>
+          <a href="https://grayback90.github.io" target="_blank" rel="noopener noreferrer">
+            <article class="reference-card">
+              <img src="../images/simply-forever-logo.png" alt="Projekt 1 Logo" class="reference-logo">
+              <h3>KK - Webdesign</h3>
+              <img src="../images/simply-forever-site.png" alt="Screenshot Projekt 1" class="reference-preview">
+            </article>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <form id="contact-form" action="#" method="post" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Dein Name" />
+
+          <label for="email">E-Mail</label>
+          <input type="email" id="email" name="email" required placeholder="deine@mail.de" />
+
+          <label for="message">Nachricht</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Deine Nachricht"></textarea>
+
+          <button type="submit">Senden</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Daniel Herzog. Alle Rechte vorbehalten.</p>
+  </footer>
+  
+</body>
+</html>
