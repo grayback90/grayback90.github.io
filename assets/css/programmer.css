@@ -1,4 +1,4 @@
-  :root {
+:root {
     --bg: #0f0f0d;
     --bg2: #171714;
     --fg: #f0ede6;
@@ -224,15 +224,35 @@
   }
 
   .leistungen-section {
-	background: var(--bg2);
+    background: var(--bg2);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .leistungen-section::after {
+    content: '';
+    position: absolute;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(200,240,96,0.05) 0%, transparent 70%);
+    top: -150px; right: -150px;
+    pointer-events: none;
   }
 
   .referenzen-section {
-	background: var(--bg);
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
   }
 
-  .ueber-section {
-	background: var(--bg);
+  .referenzen-section::after {
+    content: '';
+    position: absolute;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(108,240,184,0.05) 0%, transparent 70%);
+    bottom: -150px; left: -100px;
+    pointer-events: none;
   }
   
   .section-label {
@@ -316,6 +336,17 @@
   .pricing-section {
     background: var(--bg2);
     position: relative;
+    overflow: hidden;
+  }
+
+  .pricing-section::after {
+    content: '';
+    position: absolute;
+    width: 400px; height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(200,240,96,0.06) 0%, transparent 70%);
+    top: -100px; left: -100px;
+    pointer-events: none;
   }
 
   .pricing-section::before {
@@ -384,6 +415,22 @@
   }
 
   /* ─── ÜBER MICH ─── */
+  #ueber {
+    background: var(--bg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  #ueber::after {
+    content: '';
+    position: absolute;
+    width: 450px; height: 450px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(108,240,184,0.05) 0%, transparent 70%);
+    top: -100px; right: -100px;
+    pointer-events: none;
+  }
+
   .about-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
